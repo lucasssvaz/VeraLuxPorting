@@ -13,7 +13,7 @@
 > All credit for the underlying mathematics, the "True Color" methodology, and the sensor weighting logic belongs to him.
 >
 > *   **Original Project:** [VeraLux.space](https://veralux.space)
-> *   **Original Author:** Riccardo Paterniti
+> *   **Original Author:** [Riccardo Paterniti](https://github.com/RikyPate)
 > *   **License:** GPL-3.0-or-later
 
 ---
