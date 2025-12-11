@@ -9,13 +9,17 @@
 
    <!-- Update Package Configuration -->
    <platform os="all" arch="noarch" version="1.8.9:1.9.9">
-      <!-- CHANGED 'date' TO 'releaseDate' BELOW -->
-      <package fileName="VeraLux-Porting-V1.2.3.zip" sha1="0ca32ebf79e8971c3915693f5b9c5084a27217bf" type="script" releaseDate="20251211">
-         <title>VeraLux HyperMetric Stretch v1.2.3</title>
+      <package fileName="VeraLux-Porting-V1.2.4.zip" sha1="7a2f28d1f1f0efd34857cbca82291e55d87ce5ce" type="script" releaseDate="20251211">
+         <title>VeraLux HyperMetric Stretch v1.2.4</title>
          <description>
             <p>
-               TESTING RELEASE.<br/>
-               PORTING OF THE SIRIL VERSION 1.2.2
+               <b>Fixed Installation Path:</b><br/>
+               Script now installs correctly to /src/scripts/VeraLux/<br/>
+               <br/>
+               <b>V1.2.2 Features:</b><br/>
+               • Restored GPL-3.0 License and Attribution.<br/>
+               • Added Hybrid Color Grip engine.<br/>
+               • Fixed Adaptive Scaling logic.
             </p>
          </description>
       </package>
