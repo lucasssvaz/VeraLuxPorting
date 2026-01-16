@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xri version="1.0">
+   <description>
+      <p>
+         <b>VeraLux Suite Repository</b><br/>
+         Unified photometric engine containing HyperMetric Stretch and StarComposer.
+      </p>
+   </description>
+
+   <!-- Update Package Configuration -->
+   <platform os="all" arch="noarch" version="1.8.9:1.9.9">
+      <package fileName="VeraLux-Porting-v2.1.0.zip" sha1="17e2a8d5b6c8de9601ffa36a3578ec19b5ed8ff8" type="script" releaseDate="20260116">
+         <title>VeraLux Suite v2.1.0</title>
+         <description>
+            <p>
+               <b>Major Release: Interactive Preview Window</b><br/>
+               Revolutionary real-time parameter visualization for both HyperMetric Stretch and StarComposer modules.<br/>
+               <br/>
+               <b>🖼️ Interactive Preview Window (New)</b><br/>
+               • <b>Live Preview:</b> Real-time visualization with fast downsampled processing.<br/>
+               • <b>Tab-Aware:</b> Automatically switches between HyperMetric Stretch and StarComposer previews.<br/>
+               • <b>Multiple Scale Options:</b> 1:1, 1:2, 1:4, 1:8, or Fit-to-Window for optimal speed vs quality.<br/>
+               • <b>Interactive Navigation:</b> Pan with mouse drag, zoom with mouse wheel, pixel value inspection on hover.<br/>
+               • <b>Position Memory:</b> Maintains scroll position during parameter refreshes.<br/>
+               • <b>Fast Iteration:</b> Instant parameter adjustments at lower preview scales.<br/>
+               • <b>Reset Buttons:</b> Quick parameter restoration for both modules.<br/>
+               <br/>
+               <b>Enhanced HyperMetric Stretch</b><br/>
+               • <b>Smart Iterative Solver:</b> Enhanced "Auto-Calc" with complete post-stretch pipeline simulation.<br/>
+               • <b>Unified Color Strategy:</b> Intuitive single slider balancing noise cleaning vs highlight softening.<br/>
+               • <b>Expanded Sensor Database:</b> Added Seestar S50/S30, IMX585, and Narrowband (HOO/SHO) profiles.<br/>
+               <br/>
+               <b>Enhanced StarComposer</b><br/>
+               • <b>Star Surgery Tools:</b> Native Large Structure Rejection (LSR) and Optical Healing for chromatic aberration.<br/>
+               • <b>Vector Preservation:</b> Maintains star color temperature during stretching.<br/>
+               • <b>Auto-Stretch Stars:</b> Specialized solver optimized for linear star masks.<br/>
+               • <b>Composition Modes:</b> Linear Add (physical accuracy) and Screen (safe blending).<br/>
+            </p>
+         </description>
+      </package>
+   </platform>
+</xri>
